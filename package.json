@@ -1,0 +1,23 @@
+{
+  "name": "sassdoc-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sassdoc:works": "sassdoc ./style -v --strict",
+    "sassdoc:doesntwork": "sassdoc ./style"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tscz/sassdoc-bug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tscz/sassdoc-bug/issues"
+  },
+  "homepage": "https://github.com/tscz/sassdoc-bug#readme",
+  "devDependencies": {
+    "sassdoc": "^2.7.3"
+  }
+}
